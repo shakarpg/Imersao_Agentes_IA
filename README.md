@@ -1,68 +1,70 @@
-# Imersão Agentes de IA – Alura
+# 🧠 Imersão Agentes de IA – Alura & Google Gemini
 
-## 🎯 Visão Geral
+<p align="center">
+  <img src="https://github.com/shakarpg/Imersao_Agentes_IA/blob/main/imersao.jpg" alt="Imagem ilustrativa do agente de IA" width="600"/>
+</p>
 
-Este repositório contém o projeto desenvolvido durante a **Imersão Agentes de IA**, promovida pela Alura em parceria com o Google. O objetivo da imersão foi capacitar os participantes a criar agentes inteligentes utilizando a API Gemini, abordando conceitos como engenharia de prompts, embeddings e integração com APIs externas.
+## 🎯 Visão Geral do Projeto
 
-![Imagem ilustrativa do agente de IA](https://github.com/shakarpg/Imersao_Agentes_IA/blob/main/imersao.jpg)
+Este repositório documenta o projeto desenvolvido durante a **Imersão Agentes de IA**, uma iniciativa da Alura em parceria com o Google. O foco principal foi capacitar na criação de **agentes inteligentes** utilizando a **API Gemini**, explorando conceitos fundamentais como engenharia de prompts avançada, embeddings para busca semântica e a integração com diversas APIs externas para expandir as capacidades dos agentes.
 
-## 🧠 Objetivos do Projeto
+O projeto demonstra a construção de agentes capazes de interagir de forma autônoma, processar informações complexas e executar tarefas específicas com base em comandos do usuário, abrindo portas para automações inteligentes e soluções inovadoras.
 
-- **Desenvolver um agente inteligente** capaz de realizar tarefas específicas com base em comandos do usuário.
-- **Integrar a API Gemini** para processamento de linguagem natural.
-- **Aplicar técnicas de engenharia de prompts** para otimizar as respostas do agente.
-- **Utilizar embeddings** para busca semântica em documentos.
+## ✨ Funcionalidades Principais
 
-## ⚙️ Estrutura do Repositório
+*   **Agentes Inteligentes:** Desenvolvimento de agentes capazes de entender e responder a comandos complexos.
+*   **Integração Gemini API:** Utilização da poderosa API Gemini para processamento de linguagem natural e geração de texto.
+*   **Engenharia de Prompts:** Aplicação de técnicas avançadas para otimizar a comunicação com os modelos de IA, garantindo respostas precisas e relevantes.
+*   **Embeddings:** Implementação de busca semântica para recuperar informações contextuais de grandes volumes de dados.
+*   **Integração com APIs Externas:** Conexão com serviços externos para enriquecer as funcionalidades dos agentes.
 
-- `Imersão_Agente_de_IA.ipynb`: Notebook Jupyter contendo o código-fonte do agente inteligente.
-- `README.md`: Este arquivo, com informações sobre o projeto.
+## ⚙️ Tecnologias Utilizadas
 
-## 🚀 Como Executar
+*   **Python:** Linguagem de programação principal.
+*   **Google Gemini API:** Para capacidades de IA e LLM.
+*   **Jupyter Notebook:** Ambiente interativo para desenvolvimento e experimentação.
+*   **LangChain (presumido):** Framework para construção de aplicações com LLMs (baseado na descrição original do seu perfil).
 
-1. **Clone o repositório:**
+## 🚀 Como Executar o Projeto
 
-   ```bash
-   git clone https://github.com/shakarpg/Imersao_Agentes_IA.git
-   cd Imersao_Agentes_IA
-   
-2. **Instale as dependências:**
+Para explorar e executar os agentes de IA desenvolvidos neste projeto, siga os passos abaixo:
 
-pip install -r requirements.txt
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/shakarpg/Imersao_Agentes_IA.git
+    cd Imersao_Agentes_IA
+    ```
 
+2.  **Instale as dependências:**
+    Embora um `requirements.txt` não esteja presente diretamente, as dependências comuns para projetos de IA com Gemini e LangChain incluem:
+    ```bash
+    pip install google-generativeai langchain jupyter numpy pandas
+    ```
+    *Certifique-se de ter o Python 3.8+ instalado.*
 
-Execute o notebook:
+3.  **Configure sua chave de API Gemini:**
+    Você precisará de uma chave de API do Google Gemini. Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
+    ```
+    GOOGLE_API_KEY="SUA_CHAVE_API_AQUI"
+    ```
+    Substitua `SUA_CHAVE_API_AQUI` pela sua chave real.
 
-jupyter notebook Imersão_Agente_de_IA.ipynb
+4.  **Execute o Notebook Jupyter:**
+    ```bash
+    jupyter notebook Imersão_Agente_de_IA.ipynb
+    ```
+    Abra o arquivo `Imersão_Agente_de_IA.ipynb` no seu navegador e siga as instruções contidas no notebook para interagir com o agente.
 
+## 📚 Recursos Adicionais
 
-Siga as instruções no notebook para interagir com o agente inteligente.
+*   [Documentação da API Google Gemini](https://ai.google.dev/)
+*   [Documentação LangChain](https://www.langchain.com/)
+*   [Alura Cursos Online](https://www.alura.com.br/)
 
+## 🤝 Contribuições
 
-## 📚 Recursos Utilizados ##
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* ou enviar *pull requests* para melhorar este projeto.
 
-API Gemini: Interface conversacional do Google para processamento de linguagem natural.
+## 📄 Licença
 
-Google Colab: Ambiente para execução de código Python na nuvem.
-
-OpenAI: Biblioteca para integração com modelos de linguagem.
-
-## 🤝 Contribuições ##
-
-Sinta-se à vontade para contribuir com melhorias ou sugestões. Para isso:
-
-Faça um fork deste repositório.
-
-Crie uma branch para sua feature (git checkout -b feature/nova-feature).
-
-Commit suas alterações (git commit -am 'Adiciona nova feature').
-
-Push para a branch (git push origin feature/nova-feature).
-
-Abra um Pull Request.
-
-## 📄 Licença ##
-
-Este projeto está licenciado sob a MIT License – veja o arquivo LICENSE
- para mais detalhes.
-
+Este projeto está licenciado sob a MIT License. Veja o arquivo `LICENSE` para mais detalhes. (Se o arquivo LICENSE não existir, considere criá-lo).
